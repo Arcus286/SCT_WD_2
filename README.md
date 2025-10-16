@@ -1,1 +1,2 @@
 # SCT_WD_2
+Interactive stopwatch web application. Implementing functions for starting, pausing, and resetting the stop watch, tracking and displaying lap times, user can accurately measure and record lap intervals.
