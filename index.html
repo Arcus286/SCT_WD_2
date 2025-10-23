@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stopwatch</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link href="src\output.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
-        <h1 class="display">00:00:00</h1>
-        <div class = "buttons">
-            <button class="start">Start/Stop</button>
-            <button class="lap">Lap</button>
-            <button class="reset">Reset</button>
+<body class = "bg-gray-900 text-white">
+    <div class="h-screen flex flex-col justify-center items-center">
+        <h1 class="text-7xl py-6">00 : 00 : 00</h1>
+        <div class = "flex justify-center items-center gap-3">
+            <button class="px-4 py-2 bg-blue-700 rounded-lg cursor-pointer">Start/Stop</button>
+            <button class="px-4 py-2 bg-blue-700 rounded-lg cursor-pointer">Lap</button>
+            <button class="px-4 py-2 bg-blue-700 rounded-lg cursor-pointer">Reset</button>
         </div>
-        <ol class="lap-times">
+        <ol class="flex flex-col justify-center items-center ">
+            <li>Yemra</li>
+            <li>Yenamma</li>
         </ol>
     </div>
 </body>
