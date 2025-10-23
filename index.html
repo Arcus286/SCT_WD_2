@@ -7,16 +7,17 @@
     <!-- <link rel="stylesheet" href="styles.css"> -->
     <link href="src\output.css" rel="stylesheet">
 </head>
-<body class = "bg-gray-900 text-white">
+<body class = "bg-gray-800 text-white">
     <div class="h-screen flex flex-col justify-center items-center">
         <h1 class="text-7xl py-6">00 : 00 : 00</h1>
         <div class = "flex justify-center items-center gap-3">
-            <button class="px-4 py-2 bg-blue-700 rounded-lg cursor-pointer">Start/Stop</button>
-            <button class="px-4 py-2 bg-blue-700 rounded-lg cursor-pointer">Lap</button>
-            <button class="px-4 py-2 bg-blue-700 rounded-lg cursor-pointer">Reset</button>
+            <button class="px-4 py-2 bg-blue-700 rounded-lg cursor-pointer" onClick = "startPause()">Start/Stop</button>
+            <button class="px-4 py-2 bg-blue-700 rounded-lg cursor-pointer" onClick="recordLap()">Lap</button>
+            <button class="px-4 py-2 bg-blue-700 rounded-lg cursor-pointer" onClick="reset()">Reset</button>
         </div>
         <ol class="flex flex-col justify-center items-center ">
         </ol>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
