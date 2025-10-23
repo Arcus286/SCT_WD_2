@@ -1,40 +1,51 @@
 # SCT_WD_2
-Interactive Stopwatch Web Application
+Interactive Stopwatch Web App
 
-Project Overview
+This is a simple and responsive stopwatch web application built with HTML, Tailwind CSS, and JavaScript.
+It allows users to accurately start, pause, reset, and record lap times, making it useful for timing tasks or exercises.
 
-This is a modern, responsive interactive stopwatch application built using vanilla web technologies: HTML, CSS, and JavaScript. The primary goal is to provide users with a tool to accurately measure time, manage intervals, and record lap times with high precision.
+Features
 
-The application is designed to be easily readable and fully functional across desktop and mobile devices.
+Start / Pause Stopwatch: Begin or stop the timer at any time.
 
-Key Features
+Lap Recording: Record multiple lap intervals while the stopwatch is running.
 
-Toggle Control: A single button dynamically switches between the "Start" (green) and "Pause" (yellow/orange) functions, managing the timer state.
+Reset Function: Clear the timer and all laps instantly.
 
-Lap Recording: Users can capture intermediate lap intervals while the main timer continues to run.
+Accurate Time Tracking: Uses JavaScript’s Date.now() for precise measurement.
 
-Total Time Display: Tracks and displays the elapsed time in Minutes:Seconds:Centiseconds (MM:SS:msms) format using a large, clear, monospaced font.
+Real-time Display: Updates the timer every 10 milliseconds.
 
-Reset Function: Clears the main timer, stops the interval, and deletes all previously recorded lap history.
-
-Lap History Log: Records and displays all recorded lap times, with the newest lap appearing at the top of the list for easy tracking.
+Responsive UI: Clean, simple, and works on all screen sizes.
 
 Technologies Used
 
-The stopwatch is built entirely using standard front-end technologies:
+HTML5 – Structure of the webpage
 
-HTML5: Provides the structural elements for the display, control buttons, and the lap history list.
+Tailwind CSS – Styling and layout
 
-CSS3: Used for all styling, including centering the application, setting the typography, managing responsive layouts, and applying color coding for button states.
+JavaScript (ES6) – Stopwatch logic and DOM manipulation
 
-JavaScript (ES6+): The core logic for time management, handling the setInterval loop, calculating time format, managing the application state, and dynamic DOM manipulation for laps.
+How to Use
 
-How to Run
+Clone or download the repository.
 
-Since this application is built exclusively with client-side code, you can run it instantly:
+Open index.html in your browser.
 
-Ensure you have your three files (index.html, your CSS file, and script.js) in the same folder.
+Click Start/Stop to begin or pause the timer.
 
-Open the main HTML file (index.html) using any modern web browser.
+Click Lap to record a lap interval.
 
-No server or special setup is required.
+Click Reset to clear the timer and all lap records.
+
+Customization
+
+Update main.js to modify the timer logic or lap functionality.
+
+Modify the Tailwind classes in index.html or output.css to change the UI styling.
+
+Add new features like keyboard shortcuts or visual animations in main.js.
+
+Live Demo
+
+You can deploy this project using GitHub Pages or any static hosting service by uploading the repository.
